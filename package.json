@@ -1,5 +1,5 @@
 {
-  "name": "git-commit-npm",
+  "name": "git-pre-commit-husky",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,12 +11,12 @@
   "license": "ISC",
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ]
   },
   "devDependencies": {
     "husky": "^8.0.0",
+    "eslint": "^8.42.0",
     "lint-staged": "^13.2.3"
   }
 }
